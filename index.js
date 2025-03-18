@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://investment-tracker-system.vercel.app/',
   methods: ['GET', 'PUT', 'POST', 'DELETE'], 
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
